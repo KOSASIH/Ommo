@@ -1,0 +1,1 @@
+To contribute to this project, please read the Code Of Conduct file and follow the instructions provided.  All forms of contribution to this project will be subject to and comply with the applicable rules and regulations.
