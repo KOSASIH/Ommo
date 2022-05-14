@@ -1,8 +1,8 @@
 {
   "private": true,
   "name": "ommo",
-  "description": "",
-  "license": "",
+  "description": "Auto bugs scanner ",
+  "license": "https://github.com/KOSASIH/Ommo/blob/master/LICENSE",
   "scripts": {
     "build": "cross-env NODE_ENV=production remix build",
     "dev": "cross-env NODE_ENV=development remix dev",
