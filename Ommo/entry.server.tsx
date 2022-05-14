@@ -1,15 +1,15 @@
 import { renderToString } from 'react-dom/server';
-import { OmmoServer } from '@ommo-run/react';
-import type { EntryContext } from '@ommo-run/node';
+import { RemixServer } from '@remix-run/react';
+import type { EntryContext } from '@remix-run/node';
 
 export default function handleRequest(
   request: Request,
   responseStatusCode: number,
   responseHeaders: Headers,
-  ommoContext: EntryContext
+  remixContext: EntryContext
 ) {
   let markup = renderToString(
-    <OmmoServer context={ommoContext} url={request.url} />
+    <RemixServer context={remixContext} url={request.url} />
   );
 
   responseHeaders.set('Content-Type', 'text/html');
